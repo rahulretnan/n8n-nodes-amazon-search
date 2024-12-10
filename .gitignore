@@ -1,1 +1,8 @@
 node_modules
+dist
+.DS_Store
+*.tsbuildinfo
+.tmp
+tmp
+npm-debug.log*
+.vscode/launch.json
