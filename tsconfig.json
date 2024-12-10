@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "lib": ["es2019", "es2020", "dom"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "./dist/",
+    "target": "es2019",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "useUnknownInCatchVariables": false
+  },
+  "include": ["nodes/**/*", "credentials/**/*"],
+  "exclude": ["node_modules/**/*", "**/*.spec.ts"]
+}
